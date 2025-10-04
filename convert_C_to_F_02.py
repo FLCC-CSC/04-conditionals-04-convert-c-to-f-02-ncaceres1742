@@ -16,15 +16,15 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-print("==== Temperature Converter ====\n")
+print("===== Temperature Converter =====")
 
-
+print()
 
 print(" 1. Convert from Celsius to Fahrenheit")
 
-print(" 2. Convert from Fahrenheit to Celsius\n")
+print(" 2. Convert from Fahrenheit to Celsius")
 
-
+print()
 
 Choice = int(input("Please choose from the above menu: "))
 
@@ -36,12 +36,13 @@ Temperature = float(input("Enter a temperature to convert: "))
 
 if Choice == 1:
     c_to_f = Temperature *9/5 + 32
-
-    print(f"\n{Temperature} degrees Celsius is {c_to_f} degrees Farenheit.")
+    print()
+    print(f"{Temperature} degrees Celsius is {c_to_f} degrees Farenheit.")
   
 elif Choice == 2:
     f_to_c = (Temperature - 32) * 5/9
-    print(f"\n{Temperature} degrees Farenheit is {f_to_c} degrees Celsius.")
+    print()
+    print(f"{Temperature} degrees Farenheit is {f_to_c} degrees Celsius.")
 else:
     print()
 
