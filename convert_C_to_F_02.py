@@ -37,11 +37,11 @@ Temperature = float(input("Enter a temperature to convert: "))
 if Choice == 1:
     c_to_f = Temperature *9/5 + 32
 
-    print(f"\n{Temperature} degrees Farenheit is {c_to_f} degrees Celsius.")
+    print(f"\n{Temperature} degrees Celsius is {c_to_f} degrees Farenheit.")
   
 elif Choice == 2:
     f_to_c = (Temperature - 32) * 5/9
-    print(f"\n{Temperature} degrees Celsius is {f_to_c} degrees Fahrenheit.")
+    print(f"\n{Temperature} degrees Farenheit is {f_to_c} degrees Celsius.")
 else:
     print()
 
